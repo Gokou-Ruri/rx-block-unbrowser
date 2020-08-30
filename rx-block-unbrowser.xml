@@ -33,17 +33,6 @@
     </intent-filter>
   </prescription>
 
-  <!-- IDM -->
-  <prescription type="activity" package="idm.internet.download.manager.plus" class="acr.browser.lightning.activity.UrlHandlerBrowser" sender="other">
-    <intent-filter>
-      <action name="android.intent.action.VIEW"/>
-      <cat name="android.intent.category.BROWSABLE"/>
-      <cat name="android.intent.category.DEFAULT"/>
-      <scheme name="http"/>
-      <scheme name="https"/>
-    </intent-filter>
-  </prescription>
-
   <!-- WIFI万能钥匙 国内版 -->
   <prescription type="activity" package="com.snda.wifilocating" sender="other">
     <intent-filter>
@@ -68,17 +57,6 @@
 
   <!-- 今日头条 -->
   <prescription type="activity" package="com.ss.android.article.news" sender="other">
-    <intent-filter>
-      <action name="android.intent.action.VIEW"/>
-      <cat name="android.intent.category.BROWSABLE"/>
-      <cat name="android.intent.category.DEFAULT"/>
-      <scheme name="http"/>
-      <scheme name="https"/>
-    </intent-filter>
-  </prescription>
-
-  <!-- ADM Pro -->
-  <prescription type="activity" package="com.dv.adm.pay" class="com.dv.get.WebBrow" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW"/>
       <cat name="android.intent.category.BROWSABLE"/>
@@ -242,8 +220,8 @@
     </intent-filter>
   </prescription>
 
-  <!-- Idm Lite -->
-  <prescription type="activity" package="idm.internet.download.manager.adm.lite" class="acr.browser.lightning.activity.UrlHandlerBrowser" sender="other">
+  <!-- 航旅纵横 -->
+  <prescription type="activity" package="com.umetrip.android.msky.app" class="com.umetrip.android.msky.business.weex.WeexActivity" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW" />
       <cat name="android.intent.category.BROWSABLE" />
@@ -253,8 +231,30 @@
     </intent-filter>
   </prescription>
 
-  <!-- 航旅纵横 -->
-  <prescription type="activity" package="com.umetrip.android.msky.app" class="com.umetrip.android.msky.business.weex.WeexActivity" sender="other">
+  <!-- 小鱼易联 -->
+  <prescription type="activity" package="com.ainemo.dragoon" class="com.ainemo.android.activity.SplashActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW" />
+      <cat name="android.intent.category.BROWSABLE" />
+      <cat name="android.intent.category.DEFAULT" />
+      <scheme name="http" />
+      <scheme name="https" />
+    </intent-filter>
+  </prescription>
+  
+  <!-- WeLink -->
+  <prescription type="activity" package="com.huawei.welink" class="huawei.w3.ui.welcome.W3SplashScreenActivity" sender="other">
+    <intent-filter>
+      <action name="android.intent.action.VIEW" />
+      <cat name="android.intent.category.BROWSABLE" />
+      <cat name="android.intent.category.DEFAULT" />
+      <scheme name="http" />
+      <scheme name="https" />
+    </intent-filter>
+  </prescription>
+
+  <!-- 弹弹Play概念版 -->
+  <prescription type="activity" package="com.xyoye.dandanplay" class="com.xyoye.dandanplay.ui.activities.play.PlayerManagerActivity" sender="other">
     <intent-filter>
       <action name="android.intent.action.VIEW" />
       <cat name="android.intent.category.BROWSABLE" />

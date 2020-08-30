@@ -1,3 +1,8 @@
+修改说明：去掉了`IDM`和`ADM`，合并了[qaz617/rx-block-unbrowser](https://github.com/qaz617/rx-block-unbrowser)中新增的`小鱼易联`、`WeLink`、`弹弹Play概念版`。
+[手机点此一键导入](https://greenify.github.io/Gokou-Ruri/rx-block-unbrowser)
+
+以下为原项目说明：
+————————————————————————————————————
 # rx-block-unbrowser
 一键导入 https://greenify.github.io/kr328/rx-block-unbrowser
 
